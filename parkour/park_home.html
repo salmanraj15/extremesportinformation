@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<head><title>PARKOUR HOME</title>
+<style type="text/css">
+body {background-size:100%;}
+p.ex1
+{
+color:yellow;
+text-align:left;
+font-family:snap itc;
+font-size:55px;
+text-justify:inter-word;
+padding-left:550px;
+}
+p.ex2
+{
+color:white;
+text-align:left;
+font-family:"Times Romen";
+font-size:40px;
+text-align:center;
+text-justify:inter-word;
+
+}
+p.ex3
+{
+color:white;
+text-align:left;
+font-family:"Times Romen";
+font-size:25px;
+text-align:justify;
+text-justify:inter-word;
+}
+ul
+{
+color:white;
+text-align:left;
+font-family:"Times Romen";
+font-size:25px;
+text-align:justify;
+text-justify:inter-word;
+}
+a
+{
+	color: white;
+	text-transform: uppercase;
+    text-decoration:none;
+	letter-spacing: 6px;
+	display: inline;
+	margin-right:50px;
+	text-justify:inter-word;
+}
+a:hover,a:active
+{
+	color: white;
+	font-size:150%
+	text-shadow: 0px 0px 1px #fff;
+	padding-right: 20px;
+}
+img.pic1
+{
+image-float:left;
+border-style:solid;
+border-color:white;
+border-width:5px;
+image-align: center;
+}
+
+.tag{
+width:80%;
+font-size:35px;
+color:yellow;
+font-family:the beautiful ones;
+text-decoration:none;
+}
+
+
+</style>
+
+</head>
+<body background="images/bk.jpg">
+<div style="background-color:transparent; 
+margin-top:-8px;
+margin-bottom:-8px; 
+margin-left:auto; 
+margin-right:auto; 
+width:100%;
+background-position: fixed;
+overflow:auto;">
+<p class="ex1">PARKOUR</p>
+<hr>
+<center><p class="ex2"><a href="D:\Final Project\index.html">|HOME|</a>
+<a href="park_train.html">|TRAINING|</a>
+<a href="videospage.html">|VIDEOS|</a>
+<a href="D:\Final Project\events\events.html">|EVENTS|</a>
+<a href="D:\Final Project\register.html">|REGISTER|</a></p></center><center>
+<hr>
+<br>
+<script type="text/javascript">
+<!--
+var image1=new Image()
+image1.src="images/1.jpg"
+var image2=new Image()
+image2.src="images/2.jpg"
+var image3=new Image()
+image3.src="images/3.jpg"
+var image4=new Image()
+image4.src="images/4.jpg"
+//-->
+</script>
+</head>
+<body>
+<img class="pic1" src="images/4.jpg" name="slide" width="1200" height="500" />
+<script>
+<!--
+//variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<3)
+step++
+else
+step=1
+//call function "slideit()" every 0.5 seconds
+setTimeout("slideit()",2500)
+}
+slideit()
+//-->
+</script><br><br>
+<hr><br>
+<p class="tag"> Let your body defy gravity with this unnatural or rather super-natural sport created for the ADRENALINE-JUNKIES of our age.</p>
+</body>
+</html>

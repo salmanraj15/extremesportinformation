@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<head><title>FREE FALL</title>
+<style type="text/css">
+body {background-image:url("1234.jpg"); background-size:100%;}
+p.ex1
+{
+color:white;
+text-align:left;
+font-family:"Copperplate Gothic Bold";
+font-size:50px;
+text-justify:inter-word;
+}
+p.ex2
+{
+color:white;
+text-align:left;
+font-family:"Times Romen";
+font-size:30px;
+text-align:center;
+text-justify:inter-word;
+
+}
+p.ex3
+{
+color:white;
+text-align:left;
+font-family:"Times Romen";
+font-size:25px;
+text-align:justify;
+text-justify:inter-word;
+}
+ul
+{
+color:white;
+text-align:left;
+font-family:"Times Romen";
+font-size:25px;
+text-align:justify;
+text-justify:inter-word;
+}
+a
+{
+	color: white;
+	text-transform: uppercase;
+    text-decoration:none;
+	letter-spacing: 6px;
+	display: inline;
+	margin-right:50px;
+	text-justify:inter-word;
+}
+a:hover,a:active
+{
+	color: white;
+	font-size:150%
+	text-shadow: 0px 0px 1px #fff;
+	padding-right: 20px;
+}
+img.pic1
+{
+image-float:left;
+border-style:solid;
+border-color:white;
+border-width:5px;
+image-align: center;
+}
+
+
+</style>
+<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<div style="background-color:transparent; 
+margin-top:-8px;
+margin-bottom:-8px; 
+margin-left:auto; 
+margin-right:auto; 
+width:90%;
+background-position: fixed;
+overflow:auto;">
+<p class="ex1">KAYAKING <font size="6">THE WHITE WATER SPORT</font></p>
+<hr>
+<center><p class="ex2"><a href="#">|Home|</a>
+<a href="training.html">|training|</a>
+<a href="#">|champions|</a>
+<a href="#">|VIDEOS|</a>
+<a href="#">|events|</a>
+<a href="#">|register|</a></p><center>
+<hr>
+<br>
+<img class="pic1" src="Skydiving.gif" height="500" width="1200"><br><br>
+<hr><br>
+<center><div class="btn1">
+	  <span class="btn1-slide-text">EVENTS</span>
+      <img src="images/icons/1.png" alt="Photos" />
+       
+      <span class="btn-icon-right"><span></span></span>
+	</div>&nbsp;&nbsp;&nbsp;
+	<div class="btn2">
+	  <span class="btn2-slide-text">TRAINING</span>
+      <img src="images/icons/11.png" alt="Photos" />
+      
+      <span class="btn-icon-right"><span></span></span>
+	</div>&nbsp;&nbsp;&nbsp;
+	<div class="btn3">
+	  <span class="btn3-slide-text">REGISTER</span>
+      <img src="images/icons/12.png" alt="Photos" />
+       
+      <span class="btn-icon-right"><span></span></span>
+	</div>&nbsp;&nbsp;&nbsp;
+	<div class="btn4">
+	  <span class="btn4-slide-text">WHAT NEXT</span>
+      <img src="images/icons/17.png" alt="Photos" />
+       
+      <span class="btn-icon-right"><span></span></span>
+	</div></center>
+</body>
+</html>

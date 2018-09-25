@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>REGISTER FORM</title>
+	<link rel="stylesheet" media="screen" href="regstyle.css" >
+</head>
+<body>
+
+<form class="reg_form" action="#" method="post" name="reg_form">
+    <ul>
+        <li>
+             <h2>REGISTER WITH US</h2>
+             <span class="required_notification">* Denotes Required Field</span>
+        </li>
+        <li>
+            <label for="name">Name:</label>
+            <input type="text"  placeholder="SANTHOSH" required />
+        </li>
+        <li>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="santhosh@example.com" required />
+            <span class="form_hint">Proper format "name@something.com"</span>
+        </li>
+        <li>
+            <label for="workphone">WorkPhone:</label>
+            <input type="tel"  placeholder="0123456789" required />
+			<span class="form_hint">Proper format "10 digit number"</span> 
+		</li>
+		<li>
+            <label for="housephone">HousePhone:</label>
+            <input type="tel"  placeholder="01234567" required />
+			<span class="form_hint">Proper format "8 digit number"</span> 
+		</li>
+		<li>
+            <label for="age">Age:</label>
+            <input type="number"  placeholder="20" required />
+			<span class="form_hint">Proper format "age in years"</span> 
+		</li>
+        <li>
+            <label for="address">Address:</label>
+            <textarea name="address" cols="40" rows="6" required ></textarea>
+        </li>
+		<li>
+		    <label for="sport">Choose your sports:</label><br><br>
+			<input type="checkbox" name="skeing" value="skeing" /> PARKOUR<br>
+			<input type="checkbox" name="dirtbike" value="dirtbike" /> DIRT BIKING<br>
+			<input type="checkbox" name="skeing" value="skeing" /> KAYAKING<br>
+			<input type="checkbox" name="skeing" value="skeing" /> BUNGEE JUMPING<br>
+			<input type="checkbox" name="skeing" value="skeing" /> SURFING<br>
+		</li>
+        <li>
+		  <label>Current Experience level:<input type="range" name="exper" min="0" max="10" step=".5" value="5" title="0 you are a beginner,5 you are a semi pro and 10 you are a pro"></label>
+		</li>
+		<br><br><br><br>
+		<li>
+            <label for="msg">Why do you want to register with Xtreme Ventures?</label>
+            <textarea name="message" cols="40" rows="6" required ></textarea>
+        </li>
+		<li>
+		   <label for="pd">PAYMENT DETAILS</label><br><br>
+		   <label for="pd">Card used:</label>
+		   <select>
+		     <option>VISA</option>
+			 <option>MASTER CARD</option>
+		     <option>AMERICAN EXPRESS</option>
+		   </select><br><br>
+		   <label for="cnum">Card Number:</label>
+            <input type="number"  placeholder="56" required />
+			<span class="form_hint">Proper format "full number"</span><br> 
+		   <label for="sec">Security Code:</label>
+		   <input type="number" placeholder="05" required />
+		   <span class="form_hint">This is confidential</span><br>
+		   <label for="name">Name on Card:</label>
+            <input type="text"  placeholder="Santhosh" required />
+		   
+		<li>
+		<li>
+        	<button class="submit" type="submit">Submit Form</button>
+		</li>
+		
+		
+    </ul>
+	<div class="wadup">
+	  <a href="index.html">back</a>
+	 </div>
+	<br><br>
+	<fieldset>
+	<legend>REGISTRATION REQUIREMENTS:</legend>
+	<p>Eligibility to participate is first based on the participant's age and experience in the desired sport.<br>Body weight requirements for specific sports have to be met.<br>Training for these sports are provided by the trainers recommended by the company. A PERMIT CERTIFICATE from the trainer is required to participate in the tournaments even after registration.<br>Medical certificates regarding the current health of the person will be verified before participating in the tournaments. </p>
+	<p>NOTE:<br>Eventhough the company provides all type of safety measures, please note that these sports are extremely dangerous and you are playing at your own risk!!!</p>
+    </fieldset>
+</form>
+
+
+</body>
+</html>
